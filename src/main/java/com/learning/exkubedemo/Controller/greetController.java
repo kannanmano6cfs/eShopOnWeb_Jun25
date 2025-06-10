@@ -9,6 +9,6 @@ public class greetController {
     //My change by dev1 branch
     @GetMapping("/")
     public String greet() {
-        return "Hello World!! This is for demo about CICD in easy shortcut";
+        return "Hello World!! This is for demo about CICD pipeline process through Azure Portal";
     }
 }
