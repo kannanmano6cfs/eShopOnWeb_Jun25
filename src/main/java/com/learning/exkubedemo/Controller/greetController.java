@@ -9,6 +9,6 @@ public class greetController {
     //My change by dev1 branch
     @GetMapping("/")
     public String greet() {
-        return "Hello World!! This is from container in pods of K8s Cluster";
+        return "Hello World!! This is for demo about CICD in easy shortcut";
     }
 }
